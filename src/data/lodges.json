@@ -1,0 +1,26 @@
+[
+    {
+        "name": "California Lodge",
+        "id": "lo_california",
+        "lifts": [
+            "li_gunbarrel",
+            "li_aerial"
+        ]
+    },
+    {
+        "name": "Lakeview Lodge",
+        "id": "lo_lakeview",
+        "lifts": [
+            "li_patsys",
+            "li_powderbowl"
+        ]
+    },
+    {
+        "name": "Sky Deck",
+        "id": "lo_sky_deck",
+        "lifts": [
+            "li_sky",
+            "li_canyon"
+        ]
+    }
+]

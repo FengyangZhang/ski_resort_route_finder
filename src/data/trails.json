@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Patsy's",
+        "id": "tr_patsys",
+        "start": "li_gunbarrel",
+        "end": [
+            "li_powderbowl",
+            "li_patsys",
+            "lo_lakeview"
+        ],
+        "forks": []
+    },
+    {
+        "name": "Maggie's",
+        "id": "tr_maggies",
+        "start": "li_powderbowl",
+        "end": [            
+            "li_powderbowl",
+            "li_patsys",
+            "lo_lakeview"
+        ],
+        "forks": [
+            {
+                "id": "fo_maggies_1",
+                "distance": 2,
+                "trails": [
+                    "tr_sky_chute"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Sky Chute",
+        "id": "tr_sky_chute",
+        "start": "fo_maggies_1",
+        "end": [
+            "li_sky",
+            "li_canyon",
+            "lo_sky_deck"
+        ],
+        "forks": []
+    },
+    {
+        "name": "Ridge Run",
+        "id": "tr_ridge_run",
+        "start": "li_sky",
+        "end": ["fo_maggies_1"],
+        "forks": []
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Gunbarrel Express",
+        "id": "li_gunbarrel"
+    },
+    {
+        "name": "Aerial Tramway",
+        "id": "li_aerial"
+    },
+    {
+        "name": "Patsy's",
+        "id": "li_patsys"
+    },
+    {
+        "name": "Powderbowl Express",
+        "id": "li_powderbowl"
+    },
+    {
+        "name": "Sky Express",
+        "id": "li_sky"
+    },
+    {
+        "name": "Canyon Express",
+        "id": "li_canyon"
+    }
+]
