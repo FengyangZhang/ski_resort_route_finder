@@ -95,11 +95,9 @@ export default class MainMap extends Component {
       function pergeImpossibleRoutes() {
         results = results.filter(route => {
           var forks = route.filter(stop => stop.startsWith("fo"));
-          console.log(forks);
           var forkIdxMap = new Map();
           for (var i in forks) {
             const [_, trail, idx] = forks[i].split("_");
-            console.log(trail, idx);
             if (forkIdxMap.has(trail)) {
               if (forkIdxMap.get(trail) > idx) {
                 return false;
@@ -120,7 +118,6 @@ export default class MainMap extends Component {
     }
 
     render() {
-      console.log(this.state.start, this.state.end);
       const startOptions = 
         lifts.map(lift => <option value={lift.id}>{lift.name}</option>)
           .concat(lodges.map(lodge => <option value={lodge.id}>{lodge.name}</option>));
@@ -135,6 +132,9 @@ export default class MainMap extends Component {
       }
       return (
         <>
+        <div>
+        <img width="400" height="300" src="logo.png" />
+        </div>
         <div>
            <select onChange={e => this.setState({start: e.target.value})} required>\
              <option value="" disabled selected>Select a start</option>
